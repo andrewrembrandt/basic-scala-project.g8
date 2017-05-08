@@ -4,7 +4,7 @@ organization := "$organization$"
 
 version := "$version$"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
   "com.github.scopt" %% "scopt" % "3.5.0", // command line parsing
@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-effect" % "7.2.10",
   "org.scalaz" %% "scalaz-concurrent" % "7.2.10",
   "ch.qos.logback" % "logback-classic" % "1.2.2", // logging
-  "org.specs2" %% "specs2-core" % "3.8.9" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
 scalacOptions in Test ++= Seq("-Yrangepos")
