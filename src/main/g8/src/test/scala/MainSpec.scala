@@ -1,4 +1,4 @@
-package $organization$.$name.test;format="lower,word"$
+package $organization$.$name;format="lower,word"$.test
 
 import org.scalatest.{FlatSpec, Matchers}
 
