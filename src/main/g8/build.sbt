@@ -7,12 +7,12 @@ version := "$version$"
 scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
-  "com.github.scopt" %% "scopt" % "3.5.0", // command line parsing
-  "com.lihaoyi" % "ammonite" % "0.8.2" cross CrossVersion.full,
-  "org.scalaz" %% "scalaz-core" % "7.2.10",
-  "org.scalaz" %% "scalaz-effect" % "7.2.10",
-  "org.scalaz" %% "scalaz-concurrent" % "7.2.10",
-  "ch.qos.logback" % "logback-classic" % "1.2.2", // logging
+  "com.github.scopt" %% "scopt" % "3.5.1", // command line parsing
+  "com.lihaoyi" % "ammonite" % "0.8.4" cross CrossVersion.full,
+  "org.scalaz" %% "scalaz-core" % "7.2.12",
+  "org.scalaz" %% "scalaz-effect" % "7.2.12",
+  "org.scalaz" %% "scalaz-concurrent" % "7.2.12",
+  "ch.qos.logback" % "logback-classic" % "1.2.3", // logging
   "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
