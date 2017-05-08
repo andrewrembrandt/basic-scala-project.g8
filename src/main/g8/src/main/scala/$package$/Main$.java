@@ -1,7 +1,6 @@
-package $organization$.$name;format="lower,word"$
+package $package$
 
 object Main {
   def main(args: Array[String]) {
-
   }
 }

@@ -1,7 +1,6 @@
-package $organization$.$name;format="lower,word"$.test
+package $package$.test
 
 import org.scalatest.{FlatSpec, Matchers}
 
 class MainSpec extends FlatSpec with Matchers {
-  }
 }
