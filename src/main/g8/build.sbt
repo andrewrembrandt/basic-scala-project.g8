@@ -27,8 +27,7 @@ scalacOptions ++= Seq(
   "-encoding",
   "UTF-8",
   "-Ywarn-dead-code",
-  "-Xlint",
-  "-Xfatal-warnings")
+  "-Xlint")
 
 scalacOptions in Test ++= Seq(
   "-Yrangepos",
@@ -39,8 +38,7 @@ scalacOptions in Test ++= Seq(
   "-encoding",
   "UTF-8",
   "-Ywarn-dead-code",
-  "-Xlint",
-  "-Xfatal-warnings")
+  "-Xlint")
 
 // Read here for optional dependencies:
 // https://etorreborre.github.io/specs2/guide/SPECS2-3.8.3/org.specs2.guide.Installation.html#other-dependencies
