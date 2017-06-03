@@ -13,7 +13,8 @@ libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-effect" % "7.2.12",
   "org.scalaz" %% "scalaz-concurrent" % "7.2.12",
   "ch.qos.logback" % "logback-classic" % "1.2.3", // logging
-  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.1" % Test,
+  "org.scalamock" %% "scalamock-scalatest-support" % "3.5.0" % Test
 )
 
 scalacOptions in Test ++= Seq("-Yrangepos")
