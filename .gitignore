@@ -37,3 +37,7 @@ tags
 # ENSIME
 .ensime_cache/
 .ensime
+
+# Metals
+.metals/
+**/.bloop
