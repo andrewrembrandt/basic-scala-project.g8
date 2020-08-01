@@ -4,10 +4,10 @@
 # Vim swap files
 *.swp
 
+.metals/
+.idea/
+**/.bloop
 dist/*
 target/
 boot/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+**/target
