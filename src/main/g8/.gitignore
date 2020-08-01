@@ -1,0 +1,43 @@
+# Scala
+*.class
+*.log
+
+# sbt
+.cache/
+.history/
+.lib/
+dist/*
+target/
+boot/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea
+out
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Vim
+tags
+.*.swp
+.*.swo
+
+# Scala-IDE
+.scala_dependencies
+.worksheet
+
+# ENSIME
+.ensime_cache/
+.ensime
+
+# Metals
+.metals/
+**/.bloop
